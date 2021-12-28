@@ -1,0 +1,32 @@
+.emphasis-yellow-underline {
+    color: rgb(255, 238, 0);
+    text-decoration: underline;
+}
+
+.emphasis-yellow {
+    color: rgb(255, 238, 0);
+}
+
+.emphasis-orange {
+    color: rgb(255, 86, 5) !important;;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.darker-background {
+    background-image: linear-gradient(rgb(42, 54, 101), rgb(42, 54, 101)) !important;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.no-left-margin {
+    margin-left: 0 !important;
+}

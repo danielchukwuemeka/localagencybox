@@ -1802,3 +1802,14 @@ section#message-icon-container img {
     width: 100%;
     height: auto;
 }
+
+@media screen and (max-width: 782px) {
+   * {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      }
+   Section {
+     padding-right: 10px!important;
+     padding-left: 10px !important;
+}
+}

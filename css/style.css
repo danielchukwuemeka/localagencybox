@@ -81,7 +81,7 @@ h1.main-heading {
 
 @media screen and (max-width: 600px) {
     h1.main-heading {
-        font-size: 30px;
+        font-size: 20px;
         padding: 5px;
     }
     
@@ -96,7 +96,7 @@ h1.main-heading {
 
 @media screen and (max-width: 1024px) {
     h1.main-heading {
-        font-size: 40px;
+        font-size: 25px;
         padding: 5px;
     }
     
@@ -110,12 +110,12 @@ h1.main-heading {
 }
 
 h1.main-heading {
-    line-height: 60px;
+    
 }
 
 div.below-butress {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 50px;
 }
@@ -153,13 +153,13 @@ div.list-of-services-container {
 
 @media screen and (max-width: 600px) {
     div.list-of-services-container {
-        padding: 30px 20px;
+        padding: 30px 0;
     } 
 }
 
 @media screen and (max-width: 1024px) {
     div.list-of-services-container {
-        padding: 30px 50px;
+        padding: 30px 0;
     } 
 }
 
@@ -168,9 +168,15 @@ div.list-of-services-container {
     line-height: 30px;
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     display: flex !important;
     flex-flow: row;
+}
+
+@media only screen and (max-width: 600px){
+  list-of-services li{
+    font-size: 20px;
+  }  
 }
 
  div.list-content,
@@ -220,13 +226,13 @@ div.second-heading-container {
 
 @media screen and (max-width: 600px) {
     div.second-heading-container {
-        padding: 10px;
+        padding: 10px 0;
     }    
 }
 
 @media screen and (max-width: 1024px) {
     div.second-heading-container {
-        padding: 20px;
+        padding: 20px 0;
     }    
 }
 
@@ -239,7 +245,7 @@ h2.second-heading  {
 
 @media screen and (max-width: 600px) {
     h2.second-heading  {
-        font-size: 30px;
+        font-size: 20px;
     } 
 
     h2.second-heading  br {
@@ -249,7 +255,7 @@ h2.second-heading  {
 
 @media screen and (max-width: 1024px) {
     h2.second-heading  {
-        font-size: 40px;
+        font-size: 25px;
     } 
 }
 
@@ -336,7 +342,7 @@ div.inner-testimonial-lower-section p {
 
 @media screen and (max-width: 1024px) {
     div.inner-testimonial-lower-section p {
-        font-size: 20px !important;
+        font-size: 16px !important;
     }
 }
 
@@ -382,6 +388,21 @@ section.powerful-agency-kit {
 
 div.powerful-agency-kit-title p {
     font-size: 30px;
+}
+
+@media only screen and (max-width: 768px){
+   div.powerful-agency-kit-title p {
+    font-size: 20px;
+   }
+
+   
+   div.powerful-agency-kit-title h2 strong p {
+     font-size: 30px;
+   }
+  
+   div.services-container {
+    padding: 50px 0;
+   }
 }
 
 div.powerful-agency-kit-title h2 strong p {

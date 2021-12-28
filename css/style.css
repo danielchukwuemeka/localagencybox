@@ -11,6 +11,11 @@ body,
     box-sizing: border-box;
     /* overflow:auto; */
 }
+
+h2 {
+   font-size:30px !important;
+}
+
 lottie-player {
     width: 300px !important;
     height: 400px !important;

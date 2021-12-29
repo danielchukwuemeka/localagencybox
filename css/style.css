@@ -355,8 +355,8 @@ div.footer-below-name-container h4.name {
 }
 
 div.footer-below img {
-    width:60px !important;
-    height: 60px !important;
+    width: 0 !important;
+    height: 5vh !important;
     border-radius: 100%;
     border: 5px solid rgba(97, 165, 243, 0.4);
 }

@@ -1250,6 +1250,10 @@ iframe.imqwyt-responsive-video {
 @media screen and (max-width: 1024px) {
     iframe.imqwyt-responsive-video {
         height: fit-content;
+        border-left: 25px solid #000;
+        border-right: 25px solid #000;
+        border-top: 10px solid #000;
+        border-bottom: 10px solid #000;
     }
 }
 

@@ -10,14 +10,7 @@ body,
     padding: 0;
     box-sizing: border-box;
     overflow-wrap: break-word;
-}
-
-@media only screen and (max-width: 768px){
-    html,
-    body{
-    width:100%;
-    overflow-x:hidden !important;
-    }
+    overflow-x: hidden;
 }
 
 main {
@@ -362,8 +355,8 @@ div.footer-below-name-container h4.name {
 }
 
 div.footer-below img {
-    width: 100%;
-    height: 66px;
+    width:60px;
+    height: 60px;
     border-radius: 100%;
     border: 5px solid rgba(97, 165, 243, 0.4);
 }

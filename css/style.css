@@ -10,7 +10,14 @@ body,
     padding: 0;
     box-sizing: border-box;
     overflow-wrap: break-word;
-    overflow-x: hidden;
+}
+
+@media screen and (max-width: 782px) {
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 main {
